@@ -23,7 +23,7 @@ const Contact = () => {
             className='flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2'
           >
             {contact.map((item, index) => {
-              const { icon, title, subtitle, description, email, nohp1, nohp2, nohp3} = item;
+              const { icon, title, subtitle, email, nohp1, nohp2} = item;
               return (
                 <div className='flex flex-col lg:flex-row gap-x-4' key={index}>
                   <div className='text-accent rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl'>
@@ -32,11 +32,9 @@ const Contact = () => {
                   <div>
                     <h4 className='font-body text-xl mb-1'>{title}</h4>
                     <p className='mb-1 text-paragraph'>{subtitle}</p>
-                    <p className='text-accent font-normal '>{description}</p>
                     <p className='text-accent font-normal '>{email}</p>
                     <a className='text-accent font-normal ' href='https://wa.me/62087703382260'>{nohp1}</a><br/>
-                    <p className='text-accent font-normal ' href='https://wa.me/62081232511345'>{nohp2}</p>
-                    <a className='text-accent font-normal ' href='https://wa.me/62082234248114'>{nohp3}</a>
+                    <a className='text-accent font-normal ' href='https://wa.me/62082234248114'>{nohp2}</a>
                   </div>
                 </div>
               );

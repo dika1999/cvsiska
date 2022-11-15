@@ -4,9 +4,11 @@ import {
   FiLayout,
   FiSettings,
   FiPenTool,
-  FiTag,
   FiMail,
   FiMapPin,
+  FiHome,
+  FiShoppingBag,
+  FiFastForward,
 } from 'react-icons/fi';
 
 // WA Icon
@@ -20,7 +22,7 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/g1.jpeg';
+import Project1 from './assets/img/projects/g1.png';
 import Project2 from './assets/img/projects/g2.jpeg';
 import Project3 from './assets/img/projects/g3.jpeg';
 import Project4 from './assets/img/projects/g4.jpeg';
@@ -107,8 +109,8 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'Projek Panel Listrik Dinas Pendidikan Kabupaten Pasuruan',
-    category: 'Listrik',
+    name: 'Pengecatan menara air Erlangga PDAM kota Pasuruan',
+    category: 'Konstruksi Gedung',
   },
   {
     id: '2',
@@ -120,7 +122,7 @@ export const projectsData = [
     id: '3',
     image: Project3,
     name: 'Projek Panel Surya Kota Pasuruan',
-    category: 'Listrik',
+    category: 'Instalasi Listrik',
   },
   {
     id: '4',
@@ -148,13 +150,16 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'Listrik',
+    name: 'Konstruksi Gedung',
   },
   {
     name: 'Konstruksi Irigasi',
   },
   {
     name: 'Konstruksi Jalan Raya',
+  },
+  {
+    name: 'Instalasi Listrik',
   },
 ];
 
@@ -195,19 +200,19 @@ export const services = [
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
-    icon: <FiSettings />,
+    icon: <FiHome />,
     name: 'Konstruksi Gedung',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
-    icon: <FiPenTool />,
+    icon: <FiFastForward />,
     name: 'Instalasi Listrik',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
-    icon: <FiTag />,
+    icon: <FiLayout />,
     name: 'Konstruksi Jaringan Irigasi',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
@@ -219,19 +224,19 @@ export const services = [
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
-    icon: <FiSettings />,
+    icon: <FiShoppingBag />,
     name: 'Perdagangan Besar Berbagai Macam Material Bangunan',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
-    icon: <FiSettings />,
+    icon: <FiShoppingBag />,
     name: 'Perdagangan Besar Alat Tulis dan Gambar',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
   },
   {
-    icon: <FiSettings />,
+    icon: <FiLayout />,
     name: 'Konstruksi Jalan Rel dan Jembatan Rel',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
@@ -271,13 +276,11 @@ export const contact = [
     subtitle: 'Hubungi kami melalui : ',
     email: 'cv.siska18@gmail.com',
     nohp1: '087703382260',
-    nohp2: '081232511345',
-    nohp3: '082234248114',
+    nohp2: '082234248114',
   },
   {
     icon: <FiMapPin />,
     title: 'Alamat kami',
     subtitle: 'Perum Sekar Indah I Blok L 11 Kota Pasuruan',
-    description: 'Serving clients worldwide',
   },
 ];

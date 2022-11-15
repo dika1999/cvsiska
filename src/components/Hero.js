@@ -3,6 +3,9 @@ import React from 'react';
 // import woman image
 import WomanImg from '../assets/img/banner-hero.jpeg';
 
+// import brosur 
+import Brosur from '../assets/img/CVSISKA-Brosur.png';
+
 const Hero = () => {
   return (
     <section
@@ -23,9 +26,11 @@ const Hero = () => {
             <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
               Perusahaan kami bergerak di bidang jasa konstruksi, serta pengadaan barang atau supplier.
             </p>
+            <a href={Brosur} download='Brosur CV Siska'>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
               Download Profil Perusahaan
             </button>
+            </a>
           </div>
           <div>
             <img className='object-cover h-full w-[566px] md:mx-auto lg:mx-0 rounded-2xl'
