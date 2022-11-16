@@ -132,8 +132,8 @@ export const projectsData = [
   {
     id: '5',
     image: Project5,
-    name: 'Projek Irigasi Desa Tunggulwulung',
-    category: 'Konstruksi Irigasi',
+    name: 'Pengecatan dan pemeliharaan gedung BAPPEDA Kota Pasuruan',
+    category: 'Konstruksi Gedung',
   },
   {
     id: '6',
