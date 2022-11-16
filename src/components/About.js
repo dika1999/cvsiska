@@ -28,7 +28,7 @@ const About = () => {
                 yang mengedepankan kejujuran dengan penuh tanggung jawab.
               </p>
             </div>
-            <a href='https://wa.me/62082234248114'> 
+            <a href='https://wa.me/62082334659838'> 
               <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
                 Hubungi kami
               </button>

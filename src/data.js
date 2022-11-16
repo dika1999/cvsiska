@@ -3,7 +3,6 @@ import {
   FiPhoneCall,
   FiLayout,
   FiSettings,
-  FiPenTool,
   FiMail,
   FiMapPin,
   FiHome,
@@ -12,7 +11,7 @@ import {
 } from 'react-icons/fi';
 
 // WA Icon
-import WhatsApp from './assets/img/WA_icon/whatsapp_logo.png';
+// import WhatsApp from './assets/img/WA_icon/whatsapp_logo.png';
 
 // companies icons
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
@@ -76,7 +75,7 @@ export const navigation = [
 export const social = [
   {
     icon: <FiPhoneCall />,
-    href: 'https://wa.me/62082234248114',
+    href: 'https://wa.me/62082334659838',
   },
 ];
 
@@ -115,14 +114,14 @@ export const projectsData = [
   {
     id: '2',
     image: Project2,
-    name: 'Projek Saluran Irigasi Desa Wonomerto',
-    category: 'Konstruksi Irigasi',
+    name: 'Pembangunan Jalan (LPJU) Desa Klinter Kecamatan Kejayan Kab. Pasuruan',
+    category: 'Konstruksi Jalan Raya',
   },
   {
     id: '3',
     image: Project3,
-    name: 'Projek Panel Surya Kota Pasuruan',
-    category: 'Instalasi Listrik',
+    name: 'Pembangunan Jalan (LPJU) Desa Tamansari Kecamatan Wonorejo Kab. Pasuruan',
+    category: 'Konstruksi Jalan Raya',
   },
   {
     id: '4',
@@ -139,7 +138,7 @@ export const projectsData = [
   {
     id: '6',
     image: Project6,
-    name: 'Perbaikan Saluran Air Kota Pasuruan',
+    name: 'Pembangunan Saluran Drainase Desa Karang Sentul Wilayah Kecamatan Gondangwetan Kab. Pasuruan',
     category: 'Konstruksi Irigasi',
   },
 ];
@@ -248,21 +247,21 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+      'Love the simplicity of the service and the prompt customer support. We cant imagine working without it.',
     authorName: 'Olivia Doe',
     authorPosition: 'Head of Design, Google',
   },
   {
     authorImg: TestiImage2,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+      'Love the simplicity of the service and the prompt customer support. We cant imagine working without it.',
     authorName: 'Olivia Doe',
     authorPosition: 'Head of Design, Google',
   },
   {
     authorImg: TestiImage3,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+      'Love the simplicity of the service and the prompt customer support. We cant imagine working without it.',
     authorName: 'Olivia Doe',
     authorPosition: 'Head of Design, Google',
   },
@@ -276,7 +275,7 @@ export const contact = [
     subtitle: 'Hubungi kami melalui : ',
     email: 'cv.siska18@gmail.com',
     nohp1: '087703382260',
-    nohp2: '082234248114',
+    nohp2: '082334659838',
   },
   {
     icon: <FiMapPin />,
