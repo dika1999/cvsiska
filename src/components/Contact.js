@@ -12,20 +12,16 @@ const Contact = () => {
           <h2 className='section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'>
             Hubungi Kami
           </h2>
-          <p className='subtitle'>
-            Jangan ragu untuk menghubungi kami, karena kami selalu ada solusi untuk bisnis anda.
+          <p>
+            Jangan ragu untuk menghubungi kami, <br/> karena kami selalu ada solusi untuk bisnis anda.
           </p>
-        </div>
-        <div
-          className='flex flex-col lg:gap-x-8 lg:flex-row'
-        >
-          <div
-            className='flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2'
-          >
-            {contact.map((item, index) => {
+
+          {contact.map((item, index) => {
               const { icon, title, subtitle, email, nohp1, nohp2} = item;
               return (
-                <div className='flex flex-col lg:flex-row gap-x-4' key={index}>
+                <div className='flex flex-col items-center text-center' key={index}>
+                  <br/>
+                  <br/>
                   <div className='text-accent rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl'>
                     {icon}
                   </div>
@@ -39,8 +35,10 @@ const Contact = () => {
                 </div>
               );
             })}
-          </div>
-          <form
+        </div>
+        
+          
+          {/* <form
             className='space-y-8 w-full max-w-[780px]'
           >
             <div className='flex gap-8'>
@@ -55,9 +53,9 @@ const Contact = () => {
             <button className='btn btn-lg bg-accent hover:bg-secondary-hover'>
               Kirim pesan
             </button>
-          </form>
-        </div>
+          </form> */}
       </div>
+      
     </section>
   );
 };
