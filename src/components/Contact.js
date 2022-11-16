@@ -30,7 +30,7 @@ const Contact = () => {
                     <p className='mb-1 text-paragraph'>{subtitle}</p>
                     <p className='text-accent font-normal '>{email}</p>
                     <a className='text-accent font-normal ' href='https://wa.me/62087703382260'>{nohp1}</a><br/>
-                    <a className='text-accent font-normal ' href='https://wa.me/62082234248114'>{nohp2}</a>
+                    <a className='text-accent font-normal ' href='https://wa.me/62082334659838'>{nohp2}</a>
                   </div>
                 </div>
               );
