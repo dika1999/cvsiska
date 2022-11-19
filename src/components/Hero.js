@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import woman image
-import WomanImg from '../assets/img/banner-hero.jpeg';
+import WomanImg from '../assets/img/banner-hero.webp';
 
 // import brosur 
 import Brosur from '../assets/img/CVSISKA-Brosur.png';

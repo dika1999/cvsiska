@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import img
-import Image from '../assets/img/tentangkami.jpeg';
+import Image from '../assets/img/tentangkami.webp';
 
 const About = () => {
   return (
