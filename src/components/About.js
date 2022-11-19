@@ -18,9 +18,9 @@ const About = () => {
               <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block'>
                 Tentang Kami
               </h2>
-              <p className='mb-4 text-accent'>
-                CV. SISKA
-              </p>
+              <h3 className='mb-4 text-accent text-1.5xl font-semibold'>
+                CV SISKA
+              </h3>
               <hr className='mb-8 opacity-5' />
               <p className='mb-8'>
                 Perusahaan kami bergerak di bidang jasa

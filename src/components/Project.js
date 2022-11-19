@@ -6,8 +6,8 @@ const Project = ({ item }) => {
       <div className='mb-8'>
         <img className='rounded-2xl' src={item.image} alt='' />
       </div>
-      <p className='capitalize text-accent text-sm mb-3'>{item.category}</p>
-      <h3 className='text-2xl font-semibold capitalize mb-3'>{item.name}</h3>
+      <h3 className='font-regular capitalize text-accent text-m mb-3'>{item.category}</h3>
+      <p className='text-1.5xl font-semibold capitalize mb-3'>{item.name}</p>
     </div>
   );
 };

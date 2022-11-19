@@ -18,12 +18,9 @@ const App = () => {
     <div className='bg-white relative'>
       <Header />
       <Hero />
-      {/* <Brands /> */}
       <About />
-      {/* <Skills /> */}
       <Portfolio />
       <Services />
-      {/* <Testimonials /> */}
       <Contact />
       <Footer />
       <BackTopBtn />

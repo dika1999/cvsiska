@@ -3,7 +3,6 @@ import React from 'react';
 // import contact data
 import { contact } from '../data';
 
-
 const Contact = () => {
   return (
     <section className='section bg-primary' id='contact'>
@@ -36,24 +35,6 @@ const Contact = () => {
               );
             })}
         </div>
-        
-          
-          {/* <form
-            className='space-y-8 w-full max-w-[780px]'
-          >
-            <div className='flex gap-8'>
-              <input className='input' type='text' placeholder='Nama Anda' />
-              <input className='input' type='email' placeholder='Email Anda' />
-            </div>
-            <input className='input' type='text' placeholder='Subjek' />
-            <textarea
-              className='textarea'
-              placeholder='Tulis Pesan'
-            ></textarea>
-            <button className='btn btn-lg bg-accent hover:bg-secondary-hover'>
-              Kirim pesan
-            </button>
-          </form> */}
       </div>
       
     </section>

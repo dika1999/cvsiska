@@ -15,7 +15,7 @@ const Hero = () => {
       <div className='container mx-auto h-full'>
         <div className='flex items-center h-full pt-8'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
-            <h5 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-6xl lg:leading-[2] font-bold md:tracking-[-2px]'>
+            <h5 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-6xl lg:leading-[2] font-bold md:tracking-[-2px] text-red' style={{color: '#f97316'}}>
               CV SISKA
             </h5>
             <h5 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-4.5xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>

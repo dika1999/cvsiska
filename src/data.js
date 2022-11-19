@@ -1,18 +1,16 @@
 //  icons
 import {
-  FiLayout,
   FiSettings,
   FiMail,
   FiMapPin,
   FiHome,
   FiShoppingBag,
-  FiFastForward,
+  FiSidebar,
 } from 'react-icons/fi';
 
-// WA Icon
-import {
-  SiWhatsapp,
-} from 'react-icons/si';
+import { SiRailway, SiRainmeter, SiWhatsapp } from 'react-icons/si';
+
+import { SlEnergy } from 'react-icons/sl';
 
 // projects images
 import Project1 from './assets/img/projects/g1.webp';
@@ -118,7 +116,7 @@ export const projectsNav = [
 // services
 export const services = [
   {
-    icon: <FiLayout />,
+    icon: <FiSidebar />,
     name: 'Konstruksi Jalan Raya',
   },
   {
@@ -126,11 +124,11 @@ export const services = [
     name: 'Konstruksi Gedung',
   },
   {
-    icon: <FiFastForward />,
+    icon: <SlEnergy />,
     name: 'Instalasi Listrik',
   },
   {
-    icon: <FiLayout />,
+    icon: <SiRainmeter />,
     name: 'Konstruksi Jaringan Irigasi',
   },
   {
@@ -146,7 +144,7 @@ export const services = [
     name: 'Perdagangan Besar Alat Tulis dan Gambar',
   },
   {
-    icon: <FiLayout />,
+    icon: <SiRailway />,
     name: 'Konstruksi Jalan Rel dan Jembatan Rel',
   },
 ];
